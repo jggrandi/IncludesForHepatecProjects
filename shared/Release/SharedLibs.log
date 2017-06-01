@@ -1,0 +1,93 @@
+﻿Build started 06/11/2013 09:54:05.
+     1>Project "G:\Hepat\projects\includes\shared\SharedLibs.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\SharedLibs.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\teem-1.8.0-win32\include" /I..\Glew\include /I..\boost_1_34_0 /Iinclude /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Z7 /clr /nologo /W3 /WX- /Ox /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt source\BoundaryVertexIterator.cpp source\BoundingBox.cpp source\CombinedTransforms.cpp source\DualContouring.cpp source\ErrorManager.cpp source\FramebufferObject.cpp source\GageAdaptor.cpp source\MeshQuality.cpp source\MyGLH.cpp source\MyMeshUtils.cpp source\MyMetro.cpp source\MySoldier.cpp source\MyTerrain.cpp source\MyTree.cpp source\OpenGLFont.cpp source\PinholeCamera.cpp source\Shader.cpp source\SimpleDualContouring.cpp source\SimpleMarchingCubes.cpp source\SurfaceNets.cpp source\Texture.cpp source\VertexPool.cpp /clr:nostdlib 
+         BoundaryVertexIterator.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         BoundingBox.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         CombinedTransforms.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         DualContouring.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         ErrorManager.cpp
+         FramebufferObject.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         GageAdaptor.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         MeshQuality.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         MyGLH.cpp
+         MyMeshUtils.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         MyMetro.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         MySoldier.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         MyTerrain.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         MyTree.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         OpenGLFont.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         PinholeCamera.cpp
+         Shader.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         SimpleDualContouring.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         SimpleMarchingCubes.cpp
+         SurfaceNets.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         Generating Code...
+     1>g:\hepat\projects\includes\boost_1_34_0\boost\shared_ptr.hpp(97): warning C4793: 'boost::detail::sp_enable_shared_from_this' : function compiled as native :
+         	varargs not supported under /clr
+     1>g:\hepat\projects\includes\boost_1_34_0\boost\shared_ptr.hpp(97): warning C4793: 'boost::detail::sp_enable_shared_from_this' : function compiled as native :
+         	varargs not supported under /clr
+     1>g:\hepat\projects\includes\boost_1_34_0\boost\shared_ptr.hpp(97): warning C4793: 'boost::detail::sp_enable_shared_from_this' : function compiled as native :
+         	varargs not supported under /clr
+     1>g:\hepat\projects\includes\boost_1_34_0\boost\shared_ptr.hpp(97): warning C4793: 'boost::detail::sp_enable_shared_from_this' : function compiled as native :
+         	varargs not supported under /clr
+         Compiling...
+         Texture.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         VertexPool.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         Generating Code...
+         All outputs are up-to-date.
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"G:\Hepat\projects\includes\shared\Release\SharedLibs.lib" /NOLOGO /LTCG Release\BoundaryVertexIterator.obj
+         Release\BoundingBox.obj
+         Release\CombinedTransforms.obj
+         Release\DualContouring.obj
+         Release\ErrorManager.obj
+         Release\FramebufferObject.obj
+         Release\GageAdaptor.obj
+         Release\MeshQuality.obj
+         Release\MyGLH.obj
+         Release\MyMeshUtils.obj
+         Release\MyMetro.obj
+         Release\MySoldier.obj
+         Release\MyTerrain.obj
+         Release\MyTree.obj
+         Release\OpenGLFont.obj
+         Release\PinholeCamera.obj
+         Release\Shader.obj
+         Release\SimpleDualContouring.obj
+         Release\SimpleMarchingCubes.obj
+         Release\SurfaceNets.obj
+         Release\Texture.obj
+         Release\VertexPool.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         SharedLibs.vcxproj -> G:\Hepat\projects\includes\shared\Release\SharedLibs.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\SharedLibs.unsuccessfulbuild".
+         Touching "Release\SharedLibs.lastbuildstate".
+     1>Done Building Project "G:\Hepat\projects\includes\shared\SharedLibs.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:33.02

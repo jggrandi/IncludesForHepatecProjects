@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BoundaryVertexIterator.h" />
+    <ClInclude Include="include\BoundingBox.h" />
+    <ClInclude Include="include\CombinedTransforms.h" />
+    <ClInclude Include="include\DualContouring.h" />
+    <ClInclude Include="include\ErrorManager.h" />
+    <ClInclude Include="include\FramebufferObject.h" />
+    <ClInclude Include="include\GageAdaptor.h" />
+    <ClInclude Include="include\MeshQuality.h" />
+    <ClInclude Include="include\MyGLH.h" />
+    <ClInclude Include="include\MyMath.h" />
+    <ClInclude Include="include\MyMeshUtils.h" />
+    <ClInclude Include="include\MyMetro.h" />
+    <ClInclude Include="include\MySoldier.h" />
+    <ClInclude Include="include\MyTerrain.h" />
+    <ClInclude Include="include\MyTree.h" />
+    <ClInclude Include="include\OpenGLFont.h" />
+    <ClInclude Include="include\PinholeCamera.h" />
+    <ClInclude Include="include\Shader.h" />
+    <ClInclude Include="include\SimpleDualContouring.h" />
+    <ClInclude Include="include\SimpleMarchingCubes.h" />
+    <ClInclude Include="include\SurfaceNets.h" />
+    <ClInclude Include="include\Texture.h" />
+    <ClInclude Include="include\Timer.h" />
+    <ClInclude Include="include\VertexPool.h" />
+    <ClInclude Include="source\targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\BoundaryVertexIterator.cpp" />
+    <ClCompile Include="source\BoundingBox.cpp" />
+    <ClCompile Include="source\CombinedTransforms.cpp" />
+    <ClCompile Include="source\DualContouring.cpp" />
+    <ClCompile Include="source\ErrorManager.cpp" />
+    <ClCompile Include="source\FramebufferObject.cpp" />
+    <ClCompile Include="source\GageAdaptor.cpp" />
+    <ClCompile Include="source\MeshQuality.cpp" />
+    <ClCompile Include="source\MyGLH.cpp" />
+    <ClCompile Include="source\MyMeshUtils.cpp" />
+    <ClCompile Include="source\MyMetro.cpp" />
+    <ClCompile Include="source\MySoldier.cpp" />
+    <ClCompile Include="source\MyTerrain.cpp" />
+    <ClCompile Include="source\MyTree.cpp" />
+    <ClCompile Include="source\OpenGLFont.cpp" />
+    <ClCompile Include="source\PinholeCamera.cpp" />
+    <ClCompile Include="source\Shader.cpp" />
+    <ClCompile Include="source\SimpleDualContouring.cpp" />
+    <ClCompile Include="source\SimpleMarchingCubes.cpp" />
+    <ClCompile Include="source\SurfaceNets.cpp" />
+    <ClCompile Include="source\Texture.cpp" />
+    <ClCompile Include="source\VertexPool.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8B98424E-088E-4314-B5CC-8CAF32A485A3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SharedLibs</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\teem-1.8.0-win32\include;..\Glew\include;..\boost_1_34_0;include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\teem-1.8.0-win32\include;..\Glew\include;..\boost_1_34_0;include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

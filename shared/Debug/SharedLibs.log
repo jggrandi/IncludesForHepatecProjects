@@ -1,0 +1,82 @@
+﻿Build started 06/11/2013 09:51:29.
+     1>Project "G:\Hepat\projects\includes\shared\SharedLibs.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SharedLibs.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\teem-1.8.0-win32\include" /I..\Glew\include /I..\boost_1_34_0 /Iinclude /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\BoundaryVertexIterator.cpp source\BoundingBox.cpp source\CombinedTransforms.cpp source\DualContouring.cpp source\ErrorManager.cpp source\FramebufferObject.cpp source\GageAdaptor.cpp source\MeshQuality.cpp source\MyGLH.cpp source\MyMeshUtils.cpp source\MyMetro.cpp source\MySoldier.cpp source\MyTerrain.cpp source\MyTree.cpp source\OpenGLFont.cpp source\PinholeCamera.cpp source\Shader.cpp source\SimpleDualContouring.cpp source\SimpleMarchingCubes.cpp source\SurfaceNets.cpp source\Texture.cpp source\VertexPool.cpp
+     1>cl : Command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+         BoundaryVertexIterator.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         BoundingBox.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         CombinedTransforms.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         DualContouring.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         ErrorManager.cpp
+         FramebufferObject.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         GageAdaptor.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         MeshQuality.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         MyGLH.cpp
+         MyMeshUtils.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         MyMetro.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         MySoldier.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         MyTerrain.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         MyTree.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         OpenGLFont.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         PinholeCamera.cpp
+         Shader.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         SimpleDualContouring.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         SimpleMarchingCubes.cpp
+         SurfaceNets.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         Generating Code...
+         Compiling...
+         Texture.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         VertexPool.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"G:\Hepat\projects\includes\shared\Debug\SharedLibs.lib" /NOLOGO Debug\BoundaryVertexIterator.obj
+         Debug\BoundingBox.obj
+         Debug\CombinedTransforms.obj
+         Debug\DualContouring.obj
+         Debug\ErrorManager.obj
+         Debug\FramebufferObject.obj
+         Debug\GageAdaptor.obj
+         Debug\MeshQuality.obj
+         Debug\MyGLH.obj
+         Debug\MyMeshUtils.obj
+         Debug\MyMetro.obj
+         Debug\MySoldier.obj
+         Debug\MyTerrain.obj
+         Debug\MyTree.obj
+         Debug\OpenGLFont.obj
+         Debug\PinholeCamera.obj
+         Debug\Shader.obj
+         Debug\SimpleDualContouring.obj
+         Debug\SimpleMarchingCubes.obj
+         Debug\SurfaceNets.obj
+         Debug\Texture.obj
+         Debug\VertexPool.obj
+         SharedLibs.vcxproj -> G:\Hepat\projects\includes\shared\Debug\SharedLibs.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\SharedLibs.unsuccessfulbuild".
+         Touching "Debug\SharedLibs.lastbuildstate".
+     1>Done Building Project "G:\Hepat\projects\includes\shared\SharedLibs.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.74
